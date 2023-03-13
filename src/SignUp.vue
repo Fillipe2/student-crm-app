@@ -22,7 +22,9 @@
                 <label>Data de Nascimento</label>
             </div>
 
-            <button type="submit" id="submit2">CADASTRAR</button>
+            <div class="button-form">
+                <a id="submit" href="#">CADASTRAR</a>
+            </div>
         </form>
     </div>
 </template>

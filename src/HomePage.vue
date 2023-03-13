@@ -1,5 +1,5 @@
 <template>
-    <div class="login-box">
+    <div class="container">
         <h2>Login</h2>
         <form @submit.prevent="login">
             <div class="user-box">
@@ -65,7 +65,7 @@ body {
     font-family: var(--font-style);
 }
 
-.login-box {
+.container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,7 +77,7 @@ body {
     border-radius: 10px;
 }
 
-.login-box h2 {
+.container h2 {
     color: #fff;
     font-size: 30px;
     text-align: center;
@@ -85,7 +85,7 @@ body {
     border-radius: 15px;
 }
 
-.login-box .user-box input {
+.container .user-box input {
     position: relative;
     width: 100%;
     padding: 10px 0;
@@ -98,7 +98,7 @@ body {
     background: transparent;
 }
 
-.login-box .user-box label {
+.container .user-box label {
     position: relative;
     left: 0;
     top: -60px;
@@ -109,8 +109,8 @@ body {
     transition: .5s;
 }
 
-.login-box .user-box input:focus~label,
-.login-box .user-box input:valid~label {
+.container .user-box input:focus~label,
+.container .user-box input:valid~label {
     top: -85px;
     left: 0;
     font-size: 12px;
